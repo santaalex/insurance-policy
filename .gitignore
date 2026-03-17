@@ -1,0 +1,32 @@
+# 环境变量文件 - 绝对不要提交！
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Docker 数据卷
+volumes/
+
+# 临时文件
+*.tmp
+*.log
+uploads/
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docling 模型缓存（太大了不提交）
+.docling/
